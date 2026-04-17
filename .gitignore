@@ -1,0 +1,114 @@
+# =========================
+
+# Node.js
+
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+
+# Build outputs
+
+# =========================
+
+dist/
+build/
+out/
+
+# =========================
+
+# Environment variables
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# Logs
+
+# =========================
+
+logs/
+*.log
+
+# =========================
+
+# OS files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# IDE / Editor
+
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+
+# TypeScript
+
+# =========================
+
+*.tsbuildinfo
+
+# =========================
+
+# Coverage
+
+# =========================
+
+coverage/
+
+# =========================
+
+# Frontend specific
+
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# =========================
+
+# Backend specific
+
+# =========================
+
+backend/node_modules/
+backend/dist/
+
+# =========================
+
+# Uploads / Temp files
+
+# =========================
+
+uploads/
+tmp/
+temp/
+
+# =========================
+
+# Misc
+
+# =========================
+
+*.local
+*.cache
